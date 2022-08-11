@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+ int k = 1,n;
+   printf("Enter n value");
+   scanf("%d",&n);
+    while(k <= n)
+	{
+        n-= k++;
+    }
+     printf("k value is %d\n",k);
+    return k-1;
+}
